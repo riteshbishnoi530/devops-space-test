@@ -14,7 +14,7 @@ const Hero = ({ heroContent }: any) => {
             Create a DevOps Space (1 left)
           </button>
         </div>
-        <div className="pt-11 flex max-lg:flex-col justify-between items-start w-full">
+        <div className="pt-11 flex max-xl:flex-col max-xl:gap-4 justify-between items-start w-full">
           <Guides />
           <Items contentData={heroContent} />
         </div>
