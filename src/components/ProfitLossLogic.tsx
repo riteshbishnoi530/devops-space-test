@@ -30,7 +30,7 @@ const ProfitLossLogic = () => {
 
   return (
     <div className="min-h-screen flex flex-col items-center justify-center px-4">
-      <div className="bg-white p-8 rounded shadow-xl w-full max-w-md">
+      <div className="bg-white p-8 rounded shadow-xl w-full max-w-xl">
         <h1 className="text-2xl font-bold mb-6 text-center">Profit or Loss</h1>
         <div className="mb-4">
           <label className="block mb-1 font-medium">Selling Price </label>

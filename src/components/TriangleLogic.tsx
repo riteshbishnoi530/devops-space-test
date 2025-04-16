@@ -33,12 +33,11 @@ const TriangleLogic = () => {
 
   return (
     <div className="min-h-screen bg-gray-100 flex flex-col items-center justify-center px-4">
-      <div className="bg-white p-6 rounded shadow-md w-full max-w-md">
+      <div className="bg-white p-6 rounded shadow-md w-full max-w-xl">
         <h1 className="text-2xl font-bold mb-6 text-center">
         Triangle Validator
         </h1>
 
-        {/* Input for Angle 1 */}
         <div className="mb-4">
           <label className="block mb-1 font-medium">Angle 1</label>
           <input
