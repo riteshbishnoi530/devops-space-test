@@ -6,7 +6,7 @@ const Hero = ({ heroContent }: any) => {
   return (
     <div className="flex items-center justify-center pt-10">
       <div className="w-full max-w-[1240px] mx-auto flex justify-center items-center flex-col">
-        <div className="flex max-sm:flex-col sm:justify-between max-sm:gap-4 w-full">
+        <div className="flex px-4 max-sm:flex-col sm:justify-between max-sm:gap-4 w-full">
           <h1 className="text-[32px] max-md:text-2xl font-semibold leading-[100%]">
             My DevOps Spaces
           </h1>

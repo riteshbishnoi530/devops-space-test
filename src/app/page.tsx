@@ -1,4 +1,6 @@
 import Hero from "@/components/Hero";
+import ProfitLossLogic from "@/components/ProfitLossLogic";
+import TriangleLogic from "@/components/TriangleLogic";
 import { Suspense } from "react";
 
 // Fetching data function
@@ -26,6 +28,8 @@ export default async function Home() {
     <>
     <Suspense>
       <Hero heroContent={heroData} />
+      <TriangleLogic/>
+      <ProfitLossLogic/>
       </Suspense>
     </>
   );

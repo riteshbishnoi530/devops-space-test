@@ -66,7 +66,7 @@ const Items = ({ contentData = [] }: any) => {
   };
 
   return (
-    <>
+    <div className="w-full">
     <div className="border border-[#F1F1F1] bg-white shadow-[0px_16px_53.7px_0px_#4F02FE14] rounded-md pt-2.5 w-full max-w-[969px] max-xl:mx-auto">
       <div>
         <div className="flex justify-between items-center w-full px-[15px] pb-4 max-md:flex-col-reverse max-md:gap-5">
@@ -179,7 +179,7 @@ const Items = ({ contentData = [] }: any) => {
         </div>
       </div>
     </div>
-    <div className="flex ml-auto pt-[33px] pb-[62px] max-md:pb-11 max-md:pt-5 pr-5 items-center gap-4 mt-4">
+    <div className="flex justify-end pt-[33px] pb-[62px] max-md:pb-11 max-md:pt-5 pr-5 items-center gap-4 mt-4">
         <button
           onClick={() => handlePageChange(currentPage - 1)}
           disabled={currentPage === 1}
@@ -207,7 +207,7 @@ const Items = ({ contentData = [] }: any) => {
           Next
         </button>
       </div>
-    </>
+    </div>
   );
 };
 

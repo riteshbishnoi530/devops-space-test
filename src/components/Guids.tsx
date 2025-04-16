@@ -9,7 +9,7 @@ import React from "react";
 
 const Guides = () => {
     return (
-        <div className="w-full flex lg:flex-col flex-wrap gap-5">
+        <div className="w-full max-lg:px-4 flex lg:flex-col flex-wrap gap-5">
             <div className="w-full">
                 <p className="text-xl font-medium leading-[100%] pb-5 text-primary-black">
                     User’s Guides

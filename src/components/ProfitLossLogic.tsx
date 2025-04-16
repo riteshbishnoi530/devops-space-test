@@ -39,7 +39,7 @@ const ProfitLossLogic = () => {
             value={sp}
             onChange={(e) => setSp(e.target.value)}
             className="w-full border border-gray-300 rounded px-3 py-2 outline-none"
-            placeholder="Selling price (₹)"
+            placeholder="Selling price"
           />
         </div>
         <div className="mb-4">
@@ -49,7 +49,7 @@ const ProfitLossLogic = () => {
             value={cp}
             onChange={(e) => setCp(e.target.value)}
             className="w-full border border-gray-300 rounded px-3 py-2 outline-none"
-            placeholder="Cost price (₹)"
+            placeholder="Cost price"
           />
         </div>
         {error && (
@@ -57,7 +57,7 @@ const ProfitLossLogic = () => {
         )}
         <button
           onClick={calculate}
-          className="w-full bg-blue-500 text-white py-2 rounded hover:bg-green-500 transition-all duration-300"
+          className="w-full bg-blue-700 text-white py-2 rounded hover:bg-green-500 transition-all duration-300"
         >
           Calculate
         </button>
